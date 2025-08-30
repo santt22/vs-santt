@@ -1,4 +1,4 @@
-seu_projeto/
+meu_projeto/
 ├── README.md                 # Informações e instruções do seu projeto
 ├── requirements.txt          # Lista de dependências Python
 ├── run_app.py                # O arquivo principal para iniciar o aplicativo
