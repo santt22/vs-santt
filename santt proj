@@ -1,0 +1,26 @@
+seu_projeto/
+├── README.md                 # Informações e instruções do seu projeto
+├── requirements.txt          # Lista de dependências Python
+├── run_app.py                # O arquivo principal para iniciar o aplicativo
+├── build_exe.py              # Script para gerar o executável (opcional, mas útil)
+├── .gitignore                # Ignora arquivos temporários para o Git
+│
+├── src/                      # Código fonte
+│   ├── __init__.py           # Torna a pasta um pacote Python
+│   ├── gui/                  # Lógica de interface e telas
+│   │   ├── main_screen.py
+│   │   ├── register_screen.py
+│   │   └── about_screen.py
+│   │
+│   ├── modules/              # Lógica de negócio (API, banco de dados, etc.)
+│   │   ├── data_manager.py     # Gerencia a conexão com o banco de dados
+│   │   └── api_handler.py      # Lida com as requisições à API
+│   │
+│   └── utils/                # Funções utilitárias, como validação de dados
+│
+└── resources/                # Recursos externos
+    ├── images/
+    │   ├── logo.png
+    │   └── icon.ico
+    └── data/
+        └── database.db         # Arquivo do banco de dados (se usar sqlite)
