@@ -1,0 +1,48 @@
+# Nome do Projeto
+
+![Nome do seu Projeto](resources/images/logo.png)
+
+Uma breve descrição do que o seu aplicativo faz e qual problema ele resolve.
+
+## Funcionalidades
+
+-   Tela inicial: Uma apresentação clara do sistema.
+-   [Tela de Cadastro/Entrada de Dados]: Permite ao usuário [descreva a funcionalidade].
+-   [Tela de Consulta/Relatórios]: Permite ao usuário [descreva a funcionalidade].
+-   [Adicione outras funcionalidades aqui, como exportação de dados, relatórios, etc.]
+
+## Como Instalar e Executar
+
+1.  **Clone este repositório:**
+    ```bash
+    git clone [https://github.com/seu-usuario/seu-projeto.git](https://github.com/seu-usuario/seu-projeto.git)
+    cd seu-projeto
+    ```
+2.  **Crie e ative um ambiente virtual (recomendado):**
+    ```bash
+    python -m venv venv
+    # No Windows
+    venv\Scripts\activate
+    # No macOS/Linux
+    source venv/bin/activate
+    ```
+3.  **Instale as dependências:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+4.  **Execute o aplicativo:**
+    ```bash
+    python run_app.py
+    ```
+
+## Tecnologias Utilizadas
+
+-   **Python 3.10**
+-   **[Biblioteca GUI]:** [Versão]
+-   **[Outras dependências]:** `requests`, `sqlite3`
+    * [Breve descrição de por que cada dependência é necessária.]
+
+## Equipe
+
+-   [Nome do Aluno 1](https://github.com/aluno1)
+-   [Nome do Aluno 2](https://github.com/aluno2)
